@@ -8,7 +8,7 @@ Datahawk can visualise Tealium view and link calls when the code snippet below i
 * Enables visualisation of Tealium view/link calls by Datahawk (Google Chrome Plugin)
 * This extension should be scoped to 'All tags - After tags' and placed at the bottom of the list of extensions
 */
-var data = { version : utag.cfg.v, tags : [], load_rules : [], data_layer : b };
+var data = { version : utag.cfg.v, tags : [], loadrules : [], datalayer : b };
 for(var tag in utag.loader.GV(utag.loader.cfg)){
     if(utag.loader.cfg[tag].load && utag.loader.cfg[tag].send){
       data.tags.push(tag);
