@@ -1,11 +1,11 @@
-# datahawk-tealium
+# tagbird-tealium
 
-Datahawk can visualise Tealium view and link calls when the code snippet below is deployed using a Tealium JavaScript Extension. The extension should be scoped to "All Tags - After Tags" and placed at the bottom of the list of extensions.
+Tagbird can visualise Tealium iQ view and link calls when the code snippet below is deployed using a Tealium JavaScript Extension. The extension should be scoped to "All Tags - After Tags" and placed at the bottom of the list of extensions.
 
 ```javascript
 /*
-* Tealium JavaScript Extension: Datahawk Integration
-* Enables visualisation of Tealium view/link calls by Datahawk (Google Chrome Plugin)
+* Tealium JavaScript Extension: Tagbird Visualisation
+* Enables visualisation of Tealium iQ view/link calls by Tagbird (Google Chrome Plugin)
 * This extension should be scoped to 'All tags - After tags' and placed at the bottom of the list of extensions
 */
 var data = { version : utag.cfg.v, tags : [], load_rules : [], data_layer : b };
